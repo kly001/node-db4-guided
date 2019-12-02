@@ -9,7 +9,7 @@ server.use(helmet());
 server.use(express.json());
 
 server.get('/',(req,res) => {
-  res.send("<h1>node-db4-guided</h1>")
+  res.send("<h1>Node-db4-Guided</h1>")
 })
 
 server.get('/api/species', (req, res) => {
